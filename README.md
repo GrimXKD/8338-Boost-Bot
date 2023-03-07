@@ -3,7 +3,7 @@
 - GrimXKD
 
 # 8338 Booster Bot (GrimXD#3832)
-The new modern grabber that grabs cookies, passwords, discord tokens, steam files, telegram, interesting files found on pc and hardware crypto wallets etc.
+The new modern discord server booster that boost servers with tokens you provide to bot.
 
 # Terms
 - [x] Educational purpose only
