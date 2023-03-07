@@ -1,4 +1,4 @@
-##### [🌍 Discord](https://discord.gg/QgvkFye4NR) - [💡 Features](https://github.com/ZtczGrowtopia/psychopatheticfrograbber#features) 
+##### [🌍 Discord](https://discord.gg/QgvkFye4NR) - [💡 Features](https://github.com/GrimXKD/8338-Boost-Bot#features) 
 ### Authors
 - GrimXKD
 
