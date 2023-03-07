@@ -18,10 +18,8 @@ The new modern discord server booster that boost servers with tokens you provide
 # How To Use
 1. Download (Python 3.10.8 Only This Version!) =>>> https://www.python.org/downloads/release/python-3108/
 2. Download This Source.
-3. Run Setup.bat After Installing (Python 3.10.8 Only This Version!) =>>> https://www.python.org/downloads/release/python-3108/
-4. Change replace_me With Your Webhook In psycho.py.
-5. Run Build.bat And Wait Until It Finishes.
-6. Enjoy!
+3. Run Start.bat After Installing (Python 3.10.8 Only This Version!) =>>> https://www.python.org/downloads/release/python-3108/
+4. Enjoy!
 
 # Images
 <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://media.discordapp.net/attachments/1081637800216117419/1082711248141025340/image.png"></img>
