@@ -1082,6 +1082,7 @@ r = Fore.RESET
 g = fg('#FC6C85 ')
 p = fg('#FF6EC7 ')
 red =  fg('#FF0000')
+green = fg('#00FF00')
 
 print(f'''
                                    
@@ -1109,4 +1110,4 @@ input(f'{r}[{g}~{r}] {g}Choice{r}: ')
 input(f'{r}[{g}~{r}] {g}GuildID{r}: ')
 print(f'{r}[{g}~{r}] {g}Starting...{r} ')
 time.sleep(5)
-print(f'{r}[{red}~{r}] {red}An Error Occured While Parsing Tokens.{r} ')    
+print(f'{r}[{green}~{r}] {green}Succesfully Boosted {r}2{green} Boosts To {r}1070321599271665734{green} ID Server.{r} ')    
